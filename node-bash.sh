@@ -21,15 +21,15 @@ while true ; do
         ;;
 
     -l|--list)
-        echo "$(ps aux | grep node)"
+        ps aux | grep node | grep -v $$ | grep -v grep >&1
         ;;
 
     --)
-        echo "Empty flag"
+        echo "Empty flag" >&1
         ;;
 
     *)
-      echo "Invalid flag"
+      echo "Invalid flag" >&1
       ;;
 
   esac
