@@ -1,11 +1,7 @@
 #!/bin/bash
 
 function printHelp {
-  echo "------ node-bash HELP - 0.1v --------"
-  echo "Use script with one flag lister below"
-  echo "* -l|--list - list all node processes"
-  echo "* -k|--kill - kill all node processes"
-  echo "-------------------------------------"
+  cat help.txt
 }
 
 while true ; do

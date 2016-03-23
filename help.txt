@@ -1,0 +1,5 @@
+------ node-bash HELP - 0.1v --------
+Use script with one flag lister below
+* -l|--list - list all node processes
+* -k|--kill - kill all node processes
+-------------------------------------
